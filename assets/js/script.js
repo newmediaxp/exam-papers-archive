@@ -76,7 +76,7 @@ const output_search_results = function (search_results, year, subject) {
         search_results.innerHTML +=
             `<div class="results-item">
             <span>${name.slice(0, -5)}</span>
-            <a href="${base_url}/download/${name}.pdf" download="download">Download</a>
+            <a href="${base_url}/download/${name}.pdf">Download</a>
         </div>`;
     }
     search_results.innerHTML += `</div>`;
