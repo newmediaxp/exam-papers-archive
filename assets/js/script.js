@@ -66,14 +66,14 @@ const search_question_papers = function (year, subject) {
 };
 
 
-const output_search_results = function(search_results, year, subject) {
+const output_search_results = function (search_results, year, subject) {
     const results = search_question_papers(year, subject);
     search_results.innerHTML = `<p class="search-info">( ${results.length} results found for ${year} ${subject} )</p><div class="results-set">`;
     for (let name of results) {
-        search_results.innerHTML += 
-        `<div class="results-item">
+        search_results.innerHTML +=
+            `<div class="results-item">
             <span>${name.slice(0, -5)}</span>
-            <a href="/download/${name}.pdf" target="blank">Download</a>
+            <a href="/download/${name}.pdf" download="download">Download</a>
         </div>`;
     }
     search_results.innerHTML += `</div>`;
