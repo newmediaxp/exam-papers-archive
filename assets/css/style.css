@@ -1,0 +1,142 @@
+/* WBSU Question Papers */
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #eafaff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 18px 5%;
+}
+
+#header-content {
+    max-width: 1080px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#header-content img {
+    width: 28px;
+}
+
+footer {
+    background-color: #2d445c;
+    color: white;
+    margin-top: auto;
+}
+
+#footer-content {
+    max-width: 1080px;
+    width: 95%;
+    margin: auto;
+    padding: 18px 0;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+#footer-content .question-mark {
+    width: 18px;
+    height: 18px;
+    margin-bottom: -4px;
+    margin-right: 10px;
+}
+
+#footer-content .email {
+    color: #eafaff;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+main {
+    max-width: 1080px;
+    width: 95%;
+    margin: 80px auto;
+}
+
+#search-options {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10%;
+    font-size: 20px;
+    margin: 40px 0;
+}
+
+#search-options select,
+#search-options input {
+    font-size: 16px;
+    padding: 6px 12px;
+    margin: 12px 0;
+    cursor: pointer;
+    box-shadow: none;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+    background-color: #ccddff;
+}
+
+#search-options #search-btn {
+    padding: 8px 24px;
+    font-size: 18px;
+    transform: translate(5%, -2px);
+    background-color: #003366;
+    color: white;
+}
+
+#search-results .search-info {
+    font-size: 16px;
+}
+
+#search-results .results-set {
+    margin: 40px;
+}
+
+#search-results .results-item {
+    margin: 30px 0;
+    padding: 6px 5%;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+    background-color: #ffffea;
+}
+
+#search-results .results-item span {
+    font-size: 22px;
+}
+
+#search-results .results-item a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 20px;
+    margin: 0 5%;
+    font-size: 18px;
+    background-color: #003366;
+    color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: black;
+}
