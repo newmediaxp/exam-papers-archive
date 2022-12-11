@@ -70,7 +70,7 @@ footer {
 main {
     max-width: 1080px;
     width: 95%;
-    margin: 80px auto;
+    margin: 80px auto 120px auto;
 }
 
 #search-options {
