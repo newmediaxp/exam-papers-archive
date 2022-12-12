@@ -21,13 +21,14 @@ body {
 header {
     background-color: #003366;
     color: white;
-    font-weight: bold;
-    font-size: 14px;
-    padding: 18px 5%;
 }
 
 #header-content {
     max-width: 1080px;
+    width: 95%;
+    padding: 18px 0;
+    font-size: 14px;
+    font-weight: bold;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -37,6 +38,7 @@ header {
 
 #header-content img {
     width: 28px;
+    height: 28px;
 }
 
 footer {
@@ -70,7 +72,7 @@ footer {
 main {
     max-width: 1080px;
     width: 95%;
-    margin: 80px auto 120px auto;
+    margin: 60px auto 120px auto;
 }
 
 #search-options {
