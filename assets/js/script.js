@@ -15,57 +15,96 @@ const question_papers = [
     "CMSA-3-2017",  //-vhq
     "CMSA-3-2018",  //-vhq
     "CMSA-3-2019",  //-vhq
+    "CMSA-3-2020",  //-vhq
+    "CMSA-3-2022",  //-vhq
+    "CMSA-4-2020",  //-vhq
     "CMSA-4A-2017",  //-vhq
     "CMSA-4A-2018",  //-vhq
     "CMSA-4A-2019",  //-vhq
+    "CMSA-4A-2022",  //-vhq
     "CMSA-5-2018",  //-vhq
     "CMSA-5-2019",  //-vhq
     "CMSA-6-2018",  //-vhq
     "CMSA-6-2019",  //-vhq
 
+    "CMSACOR01T-2019",  //-lq
     "CMSACOR01T-2021",  //-vhq
     "CMSACOR01T-2022",  //-vhq
+    "CMSACOR02T-2019",  //-lq
     "CMSACOR02T-2021",  //-vhq
     "CMSACOR02T-2022",  //-vhq
+    "CMSACOR03T-2020",  //-vhq
     "CMSACOR03T-2021",  //-vhq
     "CMSACOR03T-2022",  //-vhq
+    "CMSACOR04T-2020",  //-vhq
     "CMSACOR04T-2021",  //-vhq
     "CMSACOR04T-2022",  //-vhq
+    "CMSACOR05T-2019",  //-lq
+    "CMSACOR05T-2021",  //-vhq
     "CMSACOR05T-2022",  //-vhq
+    "CMSACOR06T-2019",  //-lq
+    "CMSACOR06T-2021",  //-vhq
     "CMSACOR06T-2022",  //-vhq
+    "CMSACOR07T-2019",  //-lq
+    "CMSACOR07T-2021",  //-vhq
     "CMSACOR07T-2022",  //-vhq
-    "CMSACOR08T-2020",  //-hq
+    "CMSACOR07T-supple-2021",  //-vhq
+    "CMSACOR08T-2020",  //-vhq
     "CMSACOR08T-2022",  //-vhq
     "CMSACOR09T-2020",  //-vhq
     "CMSACOR09T-2022",  //-vhq
     "CMSACOR10T-2020",  //-vhq
+    "CMSACOR10T-2021",  //-vhq
     "CMSACOR10T-2022",  //-vhq
+    "CMSACOR11T-2021",  //-vhq
     "CMSACOR11T-2022",  //-vhq
     "CMSACOR12T-2022",  //-vhq
+    "CMSACOR13T-2021",  //-vhq
     "CMSACOR13T-2022",  //-vhq
+    "CMSACOR14T-2021",  //-vhq
     "CMSACOR14T-2022",  //-vhq
 
+    "CMSADSE01T-2021",  //-vhq
+    "CMSADSE01T-2022",  //-vhq
+    "CMSADSE02T-2021",  //-vhq
+    "CMSADSE02T-2022",  //-vhq
+    "CMSADSE03T-2021",  //-vhq
+    "CMSADSE03T-2022",  //-vhq
+    "CMSADSE04T-2021",  //-vhq
     "CMSADSE04T-2022",  //-vhq
+    "CMSADSE05T-2021",  //-vhq
     "CMSADSE05T-2022",  //-vhq
 
     "CMSG-1-2017",  //-vhq
     "CMSG-1-2018",  //-vhq
     "CMSG-1-2019",  //-vhq
+    "CMSG-3-2020",  //-vhq
     "CMSG-3A-2017",  //-vhq
     "CMSG-3A-2018",  //-vhq
     "CMSG-3A-2019",  //-vhq
+    "CMSG-3A-2022",  //-vhq
+    "CMSG-4A-2021",  //-vhq
+    "CMSG-4A-2022",  //-vhq
 
-    "CMSGCOR01T-2022",  //-hq
+    "CMSGCOR01T-2021",  //-vhq
+    "CMSGCOR01T-2022",  //-vhq
+    "CMSGCOR02T-2020",  //-vhq
+    "CMSGCOR02T-2021",  //-vhq
     "CMSGCOR02T-2022",  //-vhq
-    "CMSGCOR03T-2022",  //-hq
-    "CMSGCOR04T-2021",  //-mq
+    "CMSGCOR03T-2021",  //-vhq
+    "CMSGCOR03T-2022",  //-vhq
+    "CMSGCOR03T-supple-2021",  //-vhq
+    "CMSGCOR04T-2020",  //-vhq
+    "CMSGCOR04T-2021",  //-vhq
     "CMSGCOR04T-2022",  //-vhq
 
-    "CMSGDSE01T-2022",  //-hq
-    "CMSGDSE02T-2022",  //-hq
-    "CMSGDSE03T-2021",  //-mq
+    "CMSGDSE01T-2021",  //-vhq
+    "CMSGDSE01T-2022",  //-vhq
+    "CMSGDSE02T-2021",  //-vhq
+    "CMSGDSE02T-2022",  //-vhq
+    "CMSGDSE03T-2021",  //-vhq
     "CMSGDSE03T-2022",  //-vhq
-    "CMSGDSE04T-2021",  //-mq
+    "CMSGDSE04T-2021",  //-vhq
     "CMSGDSE04T-2022",  //-vhq
 
 ]
