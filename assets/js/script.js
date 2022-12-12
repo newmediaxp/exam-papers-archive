@@ -9,9 +9,11 @@ const question_papers = [
     "CMSA-1-2017",  //-vhq
     "CMSA-1-2018",  //-vhq
     "CMSA-1-2019",  //-vhq
+    "CMSA-1-2021",  //-mq
     "CMSA-2A-2017",  //-vhq
     "CMSA-2A-2018",  //-vhq
     "CMSA-2A-2019",  //-vhq
+    "CMSA-2A-2021",  //-lq
     "CMSA-3-2017",  //-vhq
     "CMSA-3-2018",  //-vhq
     "CMSA-3-2019",  //-vhq
@@ -50,8 +52,10 @@ const question_papers = [
     "CMSACOR07T-2022",  //-vhq
     "CMSACOR07T-supple-2021",  //-vhq
     "CMSACOR08T-2020",  //-vhq
+    "CMSACOR08T-2021",  //-vhq
     "CMSACOR08T-2022",  //-vhq
     "CMSACOR09T-2020",  //-vhq
+    "CMSACOR09T-2021",  //-vhq
     "CMSACOR09T-2022",  //-vhq
     "CMSACOR10T-2020",  //-vhq
     "CMSACOR10T-2021",  //-vhq
@@ -121,13 +125,15 @@ const search_question_papers = function (year, subject) {
 
 const output_search_results = function (search_results, year, subject) {
     const results = search_question_papers(year, subject);
-    search_results.innerHTML = `<p class="search-info">( ${results.length} results found for ${year} ${subject} )</p><div class="results-set">`;
+    search_results.innerHTML =
+        `<p class="search-info">( ${results.length} results found for ${year} ${subject} )</p>
+        <div class="results-set">`;
     for (let name of results) {
         search_results.innerHTML +=
             `<div class="results-item">
             <span>${name.slice(0, -5)}</span>
             <a href="${base_url}/download/${name}.pdf" target="_blank">Download</a>
-        </div>`;
+            </div>`;
     }
     search_results.innerHTML += `</div>`;
 };
