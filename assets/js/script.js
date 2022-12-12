@@ -28,6 +28,7 @@ const question_papers = [
     "CMSA-5-2019",  //-vhq
     "CMSA-6-2018",  //-vhq
     "CMSA-6-2019",  //-vhq
+    "CMSA-6-2020",  //-vhq
 
     "CMSACOR01T-2019",  //-lq
     "CMSACOR01T-2021",  //-vhq
@@ -82,11 +83,13 @@ const question_papers = [
     "CMSG-1-2017",  //-vhq
     "CMSG-1-2018",  //-vhq
     "CMSG-1-2019",  //-vhq
+    "CMSG-1-2020",  //-vhq
     "CMSG-3-2020",  //-vhq
     "CMSG-3A-2017",  //-vhq
     "CMSG-3A-2018",  //-vhq
     "CMSG-3A-2019",  //-vhq
     "CMSG-3A-2022",  //-vhq
+    "CMSG-4A-2020",  //-vhq
     "CMSG-4A-2021",  //-vhq
     "CMSG-4A-2022",  //-vhq
 
