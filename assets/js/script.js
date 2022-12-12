@@ -6,56 +6,67 @@ const base_url = "/wbsu-question-papers";
 
 const question_papers = [
 
-    "CMSA-1-2017",
-    "CMSA-1-2018",
-    "CMSA-1-2019",
-    "CMSA-2A-2017",
-    "CMSA-2A-2018",
-    "CMSA-2A-2019",
-    "CMSA-3-2017",
-    "CMSA-3-2018",
-    "CMSA-3-2019",
-    "CMSA-4A-2017",
-    "CMSA-4A-2018",
-    "CMSA-4A-2019",
-    "CMSA-5-2018",
-    "CMSA-5-2019",
-    "CMSA-6-2018",
-    "CMSA-6-2019",
+    "CMSA-1-2017",  //-vhq
+    "CMSA-1-2018",  //-vhq
+    "CMSA-1-2019",  //-vhq
+    "CMSA-2A-2017",  //-vhq
+    "CMSA-2A-2018",  //-vhq
+    "CMSA-2A-2019",  //-vhq
+    "CMSA-3-2017",  //-vhq
+    "CMSA-3-2018",  //-vhq
+    "CMSA-3-2019",  //-vhq
+    "CMSA-4A-2017",  //-vhq
+    "CMSA-4A-2018",  //-vhq
+    "CMSA-4A-2019",  //-vhq
+    "CMSA-5-2018",  //-vhq
+    "CMSA-5-2019",  //-vhq
+    "CMSA-6-2018",  //-vhq
+    "CMSA-6-2019",  //-vhq
 
-    "CMSACOR01T-2021",
-    "CMSACOR01T-2022",
-    "CMSACOR02T-2021",
-    "CMSACOR02T-2022",
-    "CMSACOR03T-2021",
-    "CMSACOR04T-2021",
-    "CMSACOR05T-2022",
-    "CMSACOR06T-2022",
-    "CMSACOR07T-2022",
-    "CMSACOR08T-2020",
-    "CMSACOR08T-2022",
-    "CMSACOR09T-2020",
-    "CMSACOR09T-2022",
-    "CMSACOR10T-2020",
-    "CMSACOR10T-2022",
-    "CMSACOR11T-2022",
-    "CMSACOR12T-2022",
+    "CMSACOR01T-2021",  //-vhq
+    "CMSACOR01T-2022",  //-vhq
+    "CMSACOR02T-2021",  //-vhq
+    "CMSACOR02T-2022",  //-vhq
+    "CMSACOR03T-2021",  //-vhq
+    "CMSACOR03T-2022",  //-vhq
+    "CMSACOR04T-2021",  //-vhq
+    "CMSACOR04T-2022",  //-vhq
+    "CMSACOR05T-2022",  //-vhq
+    "CMSACOR06T-2022",  //-vhq
+    "CMSACOR07T-2022",  //-vhq
+    "CMSACOR08T-2020",  //-hq
+    "CMSACOR08T-2022",  //-vhq
+    "CMSACOR09T-2020",  //-vhq
+    "CMSACOR09T-2022",  //-vhq
+    "CMSACOR10T-2020",  //-vhq
+    "CMSACOR10T-2022",  //-vhq
+    "CMSACOR11T-2022",  //-vhq
+    "CMSACOR12T-2022",  //-vhq
+    "CMSACOR13T-2022",  //-vhq
+    "CMSACOR14T-2022",  //-vhq
 
-    "CMSG-1-2017",
-    "CMSG-1-2018",
-    "CMSG-1-2019",
-    "CMSG-3A-2017",
-    "CMSG-3A-2018",
-    "CMSG-3A-2019",
+    "CMSADSE04T-2022",  //-vhq
+    "CMSADSE05T-2022",  //-vhq
 
-    "CMSGCOR01T-2022",
-    "CMSGCOR03T-2022",
-    "CMSGCOR04T-2021",
+    "CMSG-1-2017",  //-vhq
+    "CMSG-1-2018",  //-vhq
+    "CMSG-1-2019",  //-vhq
+    "CMSG-3A-2017",  //-vhq
+    "CMSG-3A-2018",  //-vhq
+    "CMSG-3A-2019",  //-vhq
 
-    "CMSGDSE01T-2022",
-    "CMSGDSE02T-2022",
-    "CMSGDSE03T-2021",
-    "CMSGDSE04T-2021",
+    "CMSGCOR01T-2022",  //-hq
+    "CMSGCOR02T-2022",  //-vhq
+    "CMSGCOR03T-2022",  //-hq
+    "CMSGCOR04T-2021",  //-mq
+    "CMSGCOR04T-2022",  //-vhq
+
+    "CMSGDSE01T-2022",  //-hq
+    "CMSGDSE02T-2022",  //-hq
+    "CMSGDSE03T-2021",  //-mq
+    "CMSGDSE03T-2022",  //-vhq
+    "CMSGDSE04T-2021",  //-mq
+    "CMSGDSE04T-2022",  //-vhq
 
 ]
 
