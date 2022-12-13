@@ -16,6 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    font-size: 16px;
 }
 
 header {
@@ -27,7 +28,7 @@ header {
     max-width: 1080px;
     width: 95%;
     padding: 18px 0;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: bold;
     margin: auto;
     display: flex;
@@ -39,8 +40,8 @@ header {
 }
 
 #header-content img {
-    width: 28px;
-    height: 28px;
+    width: 26px;
+    height: 26px;
 }
 
 footer {
@@ -59,8 +60,8 @@ footer {
 }
 
 #footer-content .question-mark {
-    width: 18px;
-    height: 18px;
+    width: 17px;
+    height: 17px;
     margin-bottom: -4px;
     margin-right: 10px;
 }
@@ -83,15 +84,19 @@ main {
     flex-wrap: wrap;
     justify-content: flex-start;
     gap: 10%;
-    font-size: 20px;
     margin: 40px 0;
+}
+
+#search-options label {
+    font-size: 19px;
 }
 
 #search-options select,
 #search-options input {
-    font-size: 16px;
+    font-size: 18px;
     padding: 6px 12px;
     margin: 12px 0;
+    letter-spacing: 1px;
     cursor: pointer;
     box-shadow: none;
     border-width: 2px;
@@ -102,8 +107,7 @@ main {
 }
 
 #search-options #search-btn {
-    padding: 8px 24px;
-    font-size: 18px;
+    padding: 8px 26px;
     transform: translate(5%, -2px);
     background-color: #003366;
     color: white;
@@ -128,7 +132,7 @@ main {
 }
 
 #search-results .results-item span {
-    font-size: 22px;
+    font-size: 21px;
 }
 
 #search-results .results-item a {
@@ -137,6 +141,7 @@ main {
     padding: 5px 20px;
     margin: 0 5%;
     font-size: 18px;
+    letter-spacing: 1px;
     background-color: #003366;
     color: white;
     border-width: 2px;
