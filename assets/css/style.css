@@ -1,5 +1,6 @@
 /* WBSU Question Papers */
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
 
 * {
     margin: 0;
@@ -16,6 +17,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    font-family: 'Noto Serif', serif;
     font-size: 16px;
 }
 
@@ -28,7 +30,7 @@ header {
     max-width: 1080px;
     width: 95%;
     padding: 18px 0;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: bold;
     margin: auto;
     display: flex;
@@ -55,20 +57,20 @@ footer {
     width: 95%;
     margin: auto;
     padding: 18px 0;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: normal;
 }
 
 #footer-content .question-mark {
-    width: 17px;
-    height: 17px;
-    margin-bottom: -4px;
+    width: 15px;
+    height: 15px;
+    margin-bottom: -3px;
     margin-right: 10px;
 }
 
-#footer-content .email {
+#footer-content .contact {
     color: #eafaff;
-    font-size: 16px;
+    font-size: 13px;
     margin-left: 5px;
 }
 
@@ -88,7 +90,7 @@ main {
 }
 
 #search-options label {
-    font-size: 19px;
+    font-size: 17px;
 }
 
 #search-options select,
@@ -114,7 +116,7 @@ main {
 }
 
 #search-results .search-info {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 #search-results .results-set {
@@ -133,6 +135,7 @@ main {
 
 #search-results .results-item span {
     font-size: 21px;
+    letter-spacing: 1px;
 }
 
 #search-results .results-item a {
@@ -141,7 +144,6 @@ main {
     padding: 5px 20px;
     margin: 0 5%;
     font-size: 18px;
-    letter-spacing: 1px;
     background-color: #003366;
     color: white;
     border-width: 2px;
