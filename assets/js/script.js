@@ -26,6 +26,7 @@ const question_papers = [
     "CMSA-4A-2022",  //-vhq
     "CMSA-5-2018",  //-vhq
     "CMSA-5-2019",  //-vhq
+    "CMSA-5-2020",  //-vhq
     "CMSA-6-2018",  //-vhq
     "CMSA-6-2019",  //-vhq
     "CMSA-6-2020",  //-vhq
