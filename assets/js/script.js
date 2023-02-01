@@ -64,6 +64,7 @@ const question_papers = [
     "CMSACOR10T-2022",  //-vhq
     "CMSACOR11T-2021",  //-vhq
     "CMSACOR11T-2022",  //-vhq
+    "CMSACOR12T-2021",  //-vhq
     "CMSACOR12T-2022",  //-vhq
     "CMSACOR13T-2021",  //-vhq
     "CMSACOR13T-2022",  //-vhq
