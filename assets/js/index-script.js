@@ -1,7 +1,7 @@
 // WBSU UG
 
 const exam_pages = {
-    "WBSU UG - West Bengal State University (Under Graduate)" : "wbsu-ug.html",
+    "WBSU UG - West Bengal State University (Under Graduate)" : "wbsu-ug",
 };
 
 const output_exam_pages = (exam_pages_display) => {
