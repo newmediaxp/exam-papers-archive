@@ -1,6 +1,6 @@
 // WBSU UG
 
-const exam_dir = "wbsu-ug/";
+const exam_dir = "wbsu-ug";
 
 const exam_years = [
     "2017",
@@ -169,7 +169,7 @@ const output_search_results = (search_results_display, year, subject) => {
         search_results_display.innerHTML +=
             `<div class="item">
             <span>${paper.slice(0, -5)}</span>
-            <a href="${base_url}download/${exam_dir}${subject}/${paper}.pdf" target="_blank">View Paper</a>
+            <a href="./download/${exam_dir}/${subject}/${paper}.pdf" target="_blank">View Paper</a>
             </div>`;
     });
     search_results_display.innerHTML += `</div>`;

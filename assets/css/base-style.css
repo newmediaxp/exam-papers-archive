@@ -1,6 +1,6 @@
 /* Exam Papers */
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap');
 
 * {
     margin: 0;
@@ -30,7 +30,7 @@ a,
 input,
 select,
 button {
-    font-family: 'Noto Serif', serif;
+    font-family: "PT Sans Caption", sans-serif;
 }
 
 body {
@@ -137,8 +137,10 @@ main {
     border-radius: 10px;
 }
 
-#search-options #search-btn {
+#search-options #search-btn,
+#support #support-btn {
     font-size: 19px;
+    font-weight: bold;
     width: 140px;
     padding: 8px 0px;
     transform: translate(5%, -2px);
@@ -209,7 +211,7 @@ main {
 #about h2,
 #contribute h2,
 #support h2 {
-    font-size: 26px;
+    font-size: 24px;
     margin-bottom: 20px;
 }
 
@@ -224,18 +226,4 @@ main {
 #support a {
     font-weight: bold;
     color: var(--button-background-color);
-}
-
-#support #support-btn {
-    font-size: 19px;
-    width: 140px;
-    padding: 8px 0px;
-    transform: translate(5%, -2px);
-    margin: 10px 0;
-    cursor: pointer;
-    box-shadow: none;
-    background-color: var(--button-background-color);
-    color: var(--button-font-color);
-    border: var(--input-border);
-    border-radius: 10px;
 }

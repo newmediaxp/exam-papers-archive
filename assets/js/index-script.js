@@ -13,7 +13,7 @@ const output_exam_pages = (exam_pages_display) => {
         exam_pages_display.innerHTML +=
         `<div class="item">
         <span>${exam}</span>
-        <a href="${base_url}${exam_pages[exam]}">Visit Page</a>
+        <a href="./${exam_pages[exam]}">Visit Page</a>
         </div>`;
     });
 }

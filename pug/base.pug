@@ -1,7 +1,5 @@
 //- base template
 
-- const base_url = "/"
-
 doctype html
 html(lang="en")
 
@@ -16,7 +14,7 @@ html(lang="en")
     body
 
         header: #header-content
-            a(href=base_url): img(src="./favicon.png" alt="site icon" width="20")
+            a(href="./"): img(src="./favicon.png" alt="site icon" width="20")
             block header-content-end
 
         main
@@ -25,8 +23,8 @@ html(lang="en")
         footer: #footer-content
             
             div#page-links
-                a(href=base_url) Home
-                a(href=base_url+"about.html") About Us
+                a(href="./") Home
+                a(href="./about.html") About Us
 
             p#copyright &#169; AnimaxNeil
 

@@ -1,7 +1,7 @@
-# WBSU Question Papers
-*version* : **1.0**  
-*update date* : 12 December 2022  
-*description*: A website to download WBSU previous years question papers  
+# Exam Papers Archive
+*version* : **2.1**  
+*update date* : 10 May 2023  
+*description*: A website to download previous years examination question papers  
 *developer* : **AnimaxNeil**  
 *release date* : 12 December 2022  
   
