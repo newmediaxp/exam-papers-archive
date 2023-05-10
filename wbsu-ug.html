@@ -6,20 +6,30 @@
     <meta name="author" content="AnimaxNeil">
     <link rel="icon" type="image/png" href="./favicon.png">
     <link rel="stylesheet" href="./assets/css/base-style.css">
-    <title>Exam Papers</title>
-    <meta name="description" content="Download previous years examination question papers">
+    <title>Exam Papers | WBSU UG</title>
+    <meta name="description" content="Download previous years WBSU UG question papers">
   </head>
   <body>
     <header>
       <div id="header-content"><a href="/"><img src="./favicon.png" alt="site icon" width="20"></a>
-        <h1>Exam Papers</h1>
+        <h1>Exam Papers &#8680; WBSU UG</h1>
       </div>
     </header>
     <main>
-      <div id="index-heading">
-        <h2>Choose examination</h2>
+      <div id="search-options">
+        <div>
+          <label for="year">Year : </label>
+          <select id="search-option-year" name="year"></select>
+        </div>
+        <div>
+          <label for="subject">Subject : </label>
+          <select id="search-option-subject" name="subject"></select>
+        </div>
+        <div> 
+          <button id="search-btn" type="button">Search</button>
+        </div>
       </div>
-      <div id="exam-pages"></div>
+      <div id="search-results"></div>
     </main>
     <footer>
       <div id="footer-content">
@@ -28,6 +38,6 @@
       </div>
     </footer>
     <script src="./assets/js/base-script.js"></script>
-    <script src="./assets/js/index-script.js"></script>
+    <script src="./assets/js/wbsu-ug-script.js"></script>
   </body>
 </html>

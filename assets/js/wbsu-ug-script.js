@@ -1,0 +1,193 @@
+// WBSU UG
+
+const exam_dir = "wbsu-ug/";
+
+const exam_years = [
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+];
+
+const exam_papers = {
+
+    "CMSA" : [
+
+        "CMSA-1-2017",  //-vhq
+        "CMSA-1-2018",  //-vhq
+        "CMSA-1-2019",  //-vhq
+        "CMSA-1-2021",  //-mq
+        "CMSA-2A-2017",  //-vhq
+        "CMSA-2A-2018",  //-vhq
+        "CMSA-2A-2019",  //-vhq
+        "CMSA-2A-2021",  //-lq
+        "CMSA-3-2017",  //-vhq
+        "CMSA-3-2018",  //-vhq
+        "CMSA-3-2019",  //-vhq
+        "CMSA-3-2020",  //-vhq
+        "CMSA-3-2022",  //-vhq
+        "CMSA-4-2020",  //-vhq
+        "CMSA-4A-2017",  //-vhq
+        "CMSA-4A-2018",  //-vhq
+        "CMSA-4A-2019",  //-vhq
+        "CMSA-4A-2022",  //-vhq
+        "CMSA-5-2018",  //-vhq
+        "CMSA-5-2019",  //-vhq
+        "CMSA-5-2020",  //-vhq
+        "CMSA-6-2018",  //-vhq
+        "CMSA-6-2019",  //-vhq
+        "CMSA-6-2020",  //-vhq
+    
+        "CMSACOR01T-2019",  //-lq
+        "CMSACOR01T-2021",  //-vhq
+        "CMSACOR01T-2022",  //-vhq
+        "CMSACOR02T-2019",  //-lq
+        "CMSACOR02T-2021",  //-vhq
+        "CMSACOR02T-2022",  //-vhq
+        "CMSACOR03T-2020",  //-vhq
+        "CMSACOR03T-2021",  //-vhq
+        "CMSACOR03T-2022",  //-vhq
+        "CMSACOR04T-2020",  //-vhq
+        "CMSACOR04T-2021",  //-vhq
+        "CMSACOR04T-2022",  //-vhq
+        "CMSACOR05T-2019",  //-lq
+        "CMSACOR05T-2021",  //-vhq
+        "CMSACOR05T-2022",  //-vhq
+        "CMSACOR06T-2019",  //-lq
+        "CMSACOR06T-2021",  //-vhq
+        "CMSACOR06T-2022",  //-vhq
+        "CMSACOR07T-2019",  //-lq
+        "CMSACOR07T-2021",  //-vhq
+        "CMSACOR07T-2022",  //-vhq
+        "CMSACOR07T-supple-2021",  //-vhq
+        "CMSACOR08T-2020",  //-vhq
+        "CMSACOR08T-2021",  //-vhq
+        "CMSACOR08T-2022",  //-vhq
+        "CMSACOR09T-2020",  //-vhq
+        "CMSACOR09T-2021",  //-vhq
+        "CMSACOR09T-2022",  //-vhq
+        "CMSACOR10T-2020",  //-vhq
+        "CMSACOR10T-2021",  //-vhq
+        "CMSACOR10T-2022",  //-vhq
+        "CMSACOR11T-2021",  //-vhq
+        "CMSACOR11T-2022",  //-vhq
+        "CMSACOR12T-2021",  //-vhq
+        "CMSACOR12T-2022",  //-vhq
+        "CMSACOR13T-2021",  //-vhq
+        "CMSACOR13T-2022",  //-vhq
+        "CMSACOR14T-2021",  //-vhq
+        "CMSACOR14T-2022",  //-vhq
+    
+        "CMSADSE01T-2021",  //-vhq
+        "CMSADSE01T-2022",  //-vhq
+        "CMSADSE02T-2021",  //-vhq
+        "CMSADSE02T-2022",  //-vhq
+        "CMSADSE03T-2021",  //-vhq
+        "CMSADSE03T-2022",  //-vhq
+        "CMSADSE04T-2021",  //-vhq
+        "CMSADSE04T-2022",  //-vhq
+        "CMSADSE05T-2021",  //-vhq
+        "CMSADSE05T-2022",  //-vhq
+    
+    ],
+
+    "CMSG": [
+
+        "CMSG-1-2017",  //-vhq
+        "CMSG-1-2018",  //-vhq
+        "CMSG-1-2019",  //-vhq
+        "CMSG-1-2020",  //-vhq
+        "CMSG-3-2020",  //-vhq
+        "CMSG-3A-2017",  //-vhq
+        "CMSG-3A-2018",  //-vhq
+        "CMSG-3A-2019",  //-vhq
+        "CMSG-3A-2022",  //-vhq
+        "CMSG-4A-2020",  //-vhq
+        "CMSG-4A-2021",  //-vhq
+        "CMSG-4A-2022",  //-vhq
+    
+        "CMSGCOR01T-2021",  //-vhq
+        "CMSGCOR01T-2022",  //-vhq
+        "CMSGCOR02T-2020",  //-vhq
+        "CMSGCOR02T-2021",  //-vhq
+        "CMSGCOR02T-2022",  //-vhq
+        "CMSGCOR03T-2021",  //-vhq
+        "CMSGCOR03T-2022",  //-vhq
+        "CMSGCOR03T-supple-2021",  //-vhq
+        "CMSGCOR04T-2020",  //-vhq
+        "CMSGCOR04T-2021",  //-vhq
+        "CMSGCOR04T-2022",  //-vhq
+    
+        "CMSGDSE01T-2021",  //-vhq
+        "CMSGDSE01T-2022",  //-vhq
+        "CMSGDSE02T-2021",  //-vhq
+        "CMSGDSE02T-2022",  //-vhq
+        "CMSGDSE03T-2021",  //-vhq
+        "CMSGDSE03T-2022",  //-vhq
+        "CMSGDSE04T-2021",  //-vhq
+        "CMSGDSE04T-2022",  //-vhq
+    
+    ],
+
+};
+
+const add_search_options = (search_option_year_display, search_option_subject_display) => {
+    let option;
+    exam_years.reverse().forEach(year => {
+        option = document.createElement("option");
+        option.text = year;
+        option.value = year;
+        search_option_year_display.appendChild(option);
+    });
+    const exam_subjects = Object.keys(exam_papers);
+    exam_subjects.forEach(subject => {
+        option = document.createElement("option");
+        option.text = subject;
+        option.value = subject;
+        search_option_subject_display.appendChild(option);
+    });
+};
+
+const search_question_papers = (year, subject) => {
+    let results = [];
+    exam_papers[subject].forEach(paper => {
+        if (paper.slice(-4) == year)
+            results.push(paper);
+    });
+    return results;
+};
+
+const output_search_results = (search_results_display, year, subject) => {
+    const results = search_question_papers(year, subject);
+    search_results_display.innerHTML =
+        `<p id="search-results-info">( ${results.length} results found for ${year} ${subject} )</p>
+        <div class="search-results-set">`;
+    results.forEach(paper => {
+        search_results_display.innerHTML +=
+            `<div class="item">
+            <span>${paper.slice(0, -5)}</span>
+            <a href="${base_url}download/${exam_dir}${subject}/${paper}.pdf" target="_blank">View Paper</a>
+            </div>`;
+    });
+    search_results_display.innerHTML += `</div>`;
+};
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    const search_option_year = document.getElementById("search-option-year");
+    const search_option_subject = document.getElementById("search-option-subject");
+    const search_btn = document.getElementById("search-btn");
+    const search_results = document.getElementById("search-results");
+
+    add_search_options(search_option_year, search_option_subject);
+
+    search_btn.addEventListener("click", () => {
+        const year = search_option_year.value;
+        const subject = search_option_subject.value;
+        output_search_results(search_results, year, subject);
+    });
+
+});

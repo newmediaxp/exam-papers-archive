@@ -1,0 +1,31 @@
+//- WBSU UG
+
+extends ./base.pug
+
+block head-end
+    title Exam Papers | WBSU UG
+    meta(name="description" content="Download previous years WBSU UG question papers")
+
+block header-content-end
+    h1 Exam Papers &#8680; WBSU UG
+
+block main-end
+
+    div#search-options
+
+        div
+            label(for="year") Year : 
+            select#search-option-year(name="year")
+
+        div
+            label(for="subject") Subject : 
+            select#search-option-subject(name="subject")
+
+        div 
+            button#search-btn(type="button") Search
+
+    div#search-results
+
+block body-end
+    script(src="./assets/js/wbsu-ug-script.js")
+
