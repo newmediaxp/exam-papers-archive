@@ -35,18 +35,18 @@ const exam_papers = {
         "BNGACOR02T-2022.pdf",  //-vhq
         "BNGACOR03T-2022.pdf",  //-vhq
         "BNGACOR04T-2022.pdf",  //-vhq
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\BNGACOR08T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\BNGACOR09T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\BNGACOR10T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\BNGACOR11T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\BNGACOR12T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\BNGACOR13T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\BNGACOR14T-2022.pdf",
+        "BNGACOR08T-2022.pdf",  //-vhq
+        "BNGACOR09T-2022.pdf",  //-vhq
+        "BNGACOR10T-2022.pdf",  //-vhq
+        "BNGACOR11T-2022.pdf",  //-vhq
+        "BNGACOR12T-2022.pdf",  //-vhq
+        "BNGACOR13T-2022.pdf",  //-vhq
+        "BNGACOR14T-2022.pdf",  //-vhq
 
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\BNGADSE02T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\BNGADSE04T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\BNGADSE05T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\BNGADSE06T-2022.pdf",
+        "BNGADSE02T-2022.pdf",  //-vhq
+        "BNGADSE04T-2022.pdf",  //-vhq
+        "BNGADSE05T-2022.pdf",  //-vhq
+        "BNGADSE06T-2022.pdf",  //-vhq
 
     ],
 
@@ -54,20 +54,20 @@ const exam_papers = {
 
         "BNGGCOR01T-2022.pdf",  //-vhq
         "BNGGCOR02T-2022.pdf",  //-vhq
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\BNGGCOR04T-2022.pdf",
+        "BNGGCOR04T-2022.pdf",  //-vhq
 
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\BNGGDSE03T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\BNGGDSE04T-2022.pdf",
+        "BNGGDSE03T-2022.pdf",  //-vhq
+        "BNGGDSE04T-2022.pdf",  //-vhq
 
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\BNGGGEC02T-2022.pdf",
+        "BNGGGEC02T-2022.pdf",  //-vhq
 
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\BNGLCOR02T-2022.pdf",
+        "BNGLCOR02T-2022.pdf",  //-vhq
 
     ],
 
     "CEMA": [
 
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\CEMADSE06T-2022.pdf",
+        "CEMADSE06T-2022.pdf",  //-vhq
 
     ],
 
@@ -75,20 +75,20 @@ const exam_papers = {
 
         "CEMGCOR01T-2022.pdf",  //-vhq
         "CEMGCOR02T-2022.pdf",  //-vhq
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\CEMGCOR04T-2022.pdf",
+        "CEMGCOR04T-2022.pdf",  //-vhq
 
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\CEMGDSE03T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\CEMGDSE04T-2022.pdf",
+        "CEMGDSE03T-2022.pdf",  //-vhq
+        "CEMGDSE04T-2022.pdf",  //-vhq
 
     ],
 
     "CMAG": [
 
         "CMAGCOR02T-2022.pdf",  //-vhq
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\CMAGCOR04T-2022.pdf",
+        "CMAGCOR04T-2022.pdf",  //-vhq
 
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\CMAGDSE03T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\CMAGDSE04T-2022.pdf",
+        "CMAGDSE03T-2022.pdf",  //-vhq
+        "CMAGDSE04T-2022.pdf",  //-vhq
 
     ],
 
@@ -214,12 +214,12 @@ const exam_papers = {
 
         "ECOG\ECOGCOR01T-2022.pdf",  //-vhq
         "ECOGCOR02T-2022.pdf",  //-vhq
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\ECOGCOR04T-2022.pdf",
+        "ECOGCOR04T-2022.pdf",  //-vhq
 
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\ECOGDSE01T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\ECOGDSE02T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\ECOGDSE03T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\ECOGGEC02T-2022.pdf",
+        "ECOGDSE01T-2022.pdf",  //-vhq
+        "ECOGDSE02T-2022.pdf",  //-vhq
+        "ECOGDSE03T-2022.pdf",  //-vhq
+        "ECOGGEC02T-2022.pdf",  //-vhq
 
     ],
 
@@ -232,18 +232,18 @@ const exam_papers = {
         "EDCACOR02T-2022.pdf",  //-vhq
         "EDCACOR03T-2022.pdf",  //-vhq
         "EDCACOR04T-2022.pdf",  //-vhq
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\EDCACOR08T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\EDCACOR09T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\EDCACOR10T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\EDCACOR11T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\EDCACOR12T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\EDCACOR13T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\EDCACOR14T-2022.pdf",
+        "EDCACOR08T-2022.pdf",  //-vhq
+        "EDCACOR09T-2022.pdf",  //-vhq
+        "EDCACOR10T-2022.pdf",  //-vhq
+        "EDCACOR11T-2022.pdf",  //-vhq
+        "EDCACOR12T-2022.pdf",  //-vhq
+        "EDCACOR13T-2022.pdf",  //-vhq
+        "EDCACOR14T-2022.pdf",  //-vhq
 
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\EDCADSE02T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\EDCADSE04T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\EDCADSE05T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\EDCADSE06T-2022.pdf",
+        "EDCADSE02T-2022.pdf",  //-vhq
+        "EDCADSE04T-2022.pdf",  //-vhq
+        "EDCADSE05T-2022.pdf",  //-vhq
+        "EDCADSE06T-2022.pdf",  //-vhq
 
     ],
 
@@ -251,12 +251,12 @@ const exam_papers = {
 
         "EDCGCOR01T-2022.pdf",  //-vhq
         "EDCGCOR02T-2022.pdf",  //-vhq
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\EDCGCOR04T-2022.pdf",
+        "EDCGCOR04T-2022.pdf",  //-vhq
 
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\EDCGDSE03T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\EDCGDSE04T-2022.pdf",
+        "EDCGDSE03T-2022.pdf",  //-vhq
+        "EDCGDSE04T-2022.pdf",  //-vhq
 
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\EDCGGEC02T-2022.pdf",
+        "EDCGGEC02T-2022.pdf",  //-vhq
 
     ],
 
@@ -283,19 +283,19 @@ const exam_papers = {
         "ENGACOR08T-2021.pdf",  //-vhq
         "ENGACOR08T-2022.pdf",  //-vhq
         "ENGACOR09T-2021.pdf",  //-vhq
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\ENGACOR09T-2022.pdf",
+        "ENGACOR09T-2022.pdf",  //-vhq
         "ENGACOR10T-2022.pdf",  //-vhq
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\ENGACOR11T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\ENGACOR12T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\ENGACOR13T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\ENGACOR14T-2022.pdf",
+        "ENGACOR11T-2022.pdf",  //-vhq
+        "ENGACOR12T-2022.pdf",  //-vhq
+        "ENGACOR13T-2022.pdf",  //-vhq
+        "ENGACOR14T-2022.pdf",  //-vhq
 
         "ENGADSE01T-2021.pdf",  //-vhq
         "ENGADSE01T-2022.pdf",  //-vhq
         "ENGADSE02T-2021.pdf",  //-vhq
         "ENGADSE02T-2022.pdf",  //-vhq
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\ENGADSE04T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\ENGADSE05T-2022.pdf",
+        "ENGADSE04T-2022.pdf",  //-vhq
+        "ENGADSE05T-2022.pdf",  //-vhq
 
     ],
 
@@ -303,26 +303,26 @@ const exam_papers = {
 
         "ENGGCOR01T-2022.pdf",  //-vhq
         "ENGGCOR02T-2022.pdf",  //-vhq
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\ENGGCOR04T-2022.pdf",
+        "ENGGCOR04T-2022.pdf",  //-vhq
 
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\ENGGDSE04T-2022.pdf",
+        "ENGGDSE04T-2022.pdf",  //-vhq
 
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\ENGGGEC02T-2022.pdf",
+        "ENGGGEC02T-2022.pdf",  //-vhq
 
         "ENGLCOR02T-2022.pdf",  //-vhq
 
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\ENGMCOR02T-2022.pdf",
+        "ENGMCOR02T-2022.pdf",  //-vhq
 
     ],
 
     "EVSG": [
 
         "EVSGCOR02T-2022.pdf",  //-vhq
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\EVSGCOR04T-2022.pdf",
+        "EVSGCOR04T-2022.pdf",  //-vhq
 
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\EVSGDSE01T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\EVSGDSE02T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\EVSGDSE03T-2022.pdf",
+        "EVSGDSE01T-2022.pdf",  //-vhq
+        "EVSGDSE02T-2022.pdf",  //-vhq
+        "EVSGDSE03T-2022.pdf",  //-vhq
 
     ],
 
@@ -333,19 +333,19 @@ const exam_papers = {
         "FACACOR02T-2022.pdf",  //-vhq
         "FACACOR03T-2022.pdf",  //-vhq
         "FACACOR04T-2022.pdf",  //-vhq
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\FACACOR08T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\FACACOR09T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\FACACOR10T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\FACACOR11T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\FACACOR12T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\FACACOR13T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\FACACOR14T-2022.pdf",
+        "FACACOR08T-2022.pdf",  //-vhq
+        "FACACOR09T-2022.pdf",  //-vhq
+        "FACACOR10T-2022.pdf",  //-vhq
+        "FACACOR11T-2022.pdf",  //-vhq
+        "FACACOR12T-2022.pdf",  //-vhq
+        "FACACOR13T-2022.pdf",  //-vhq
+        "FACACOR14T-2022.pdf",  //-vhq
 
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\FACADSE02T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\FACADSE07T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\FACADSE08T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\FACADSE09T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\FACADSE10T-2022.pdf",
+        "FACADSE02T-2022.pdf",  //-vhq
+        "FACADSE07T-2022.pdf",  //-vhq
+        "FACADSE08T-2022.pdf",  //-vhq
+        "FACADSE09T-2022.pdf",  //-vhq
+        "FACADSE10T-2022.pdf",  //-vhq
 
     ],
 
@@ -357,23 +357,23 @@ const exam_papers = {
         "FACGCOR02T-2022.pdf",  //-vhq
         "FACGCOR03T-2022.pdf",  //-vhq
         "FACGCOR04T-2022.pdf",  //-vhq
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\FACGCOR07T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\FACGCOR08T-2022.pdf",
+        "FACGCOR07T-2022.pdf",  //-vhq
+        "FACGCOR08T-2022.pdf",  //-vhq
 
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\FACGDSE01T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\FACGDSE02T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\FACGDSE04T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\FACGDSE07T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\FACGDSE08T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\FACGDSE09T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\FACGDSE10T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\FACGDSE11T-2022.pdf",
+        "FACGDSE01T-2022.pdf",  //-vhq
+        "FACGDSE02T-2022.pdf",  //-vhq
+        "FACGDSE04T-2022.pdf",  //-vhq
+        "FACGDSE07T-2022.pdf",  //-vhq
+        "FACGDSE08T-2022.pdf",  //-vhq
+        "FACGDSE09T-2022.pdf",  //-vhq
+        "FACGDSE10T-2022.pdf",  //-vhq
+        "FACGDSE11T-2022.pdf",  //-vhq
 
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\FACGGEC02T-2022.pdf",
+        "FACGGEC02T-2022.pdf",  //-vhq
 
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\FACHGEC01T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\FACHGEC02T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\FACHGEC04T-2022.pdf",
+        "FACHGEC01T-2022.pdf",  //-vhq
+        "FACHGEC02T-2022.pdf",  //-vhq
+        "FACHGEC04T-2022.pdf",  //-vhq
 
     ],
 
@@ -385,18 +385,18 @@ const exam_papers = {
         "GEOACOR02T-2022.pdf",  //-vhq
         "GEOACOR03T-2022.pdf",  //-vhq
         "GEOACOR04T-2022.pdf",  //-vhq
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\GEOACOR08T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\GEOACOR09T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\GEOACOR10T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\GEOACOR11T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\GEOACOR12T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\GEOACOR13T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\GEOACOR14T-2022.pdf",
+        "GEOACOR08T-2022.pdf",  //-vhq
+        "GEOACOR09T-2022.pdf",  //-vhq
+        "GEOACOR10T-2022.pdf",  //-vhq
+        "GEOACOR11T-2022.pdf",  //-vhq
+        "GEOACOR12T-2022.pdf",  //-vhq
+        "GEOACOR13T-2022.pdf",  //-vhq
+        "GEOACOR14T-2022.pdf",  //-vhq
 
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\GEOADSE02T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\GEOADSE04T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\GEOADSE05T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\GEOADSE06T-2022.pdf",
+        "GEOADSE02T-2022.pdf",  //-vhq
+        "GEOADSE04T-2022.pdf",  //-vhq
+        "GEOADSE05T-2022.pdf",  //-vhq
+        "GEOADSE06T-2022.pdf",  //-vhq
 
     ],
 
@@ -406,30 +406,30 @@ const exam_papers = {
 
         "GEOGCOR01T-2022.pdf",  //-vhq
         "GEOGCOR02T-2022.pdf",  //-vhq
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\GEOGCOR04T-2022.pdf",
+        "GEOGCOR04T-2022.pdf",  //-vhq
 
     ],
 
     "HINA": [
 
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\HINADSE05T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\HINADSE06T-2022.pdf",
+        "HINADSE05T-2022.pdf",  //-vhq
+        "HINADSE06T-2022.pdf",  //-vhq
 
     ],
 
     "HING": [
 
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\HINGCOR02T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\HINGCOR04T-2022.pdf",
+        "HINGCOR02T-2022.pdf",  //-vhq
+        "HINGCOR04T-2022.pdf",  //-vhq
 
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\HINGDSE03T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\HINGDSE04T-2022.pdf",
+        "HINGDSE03T-2022.pdf",  //-vhq
+        "HINGDSE04T-2022.pdf",  //-vhq
 
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\HINGGEC02T-2022.pdf",
+        "HINGGEC02T-2022.pdf",  //-vhq
 
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\HINLCOR02T-2022.pdf",
+        "HINLCOR02T-2022.pdf",  //-vhq
 
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\HINSAECO1M-2022.pdf",
+        "HINSAECO1M-2022.pdf",  //-vhq
 
     ],
 
@@ -442,52 +442,52 @@ const exam_papers = {
         "HISACOR02T-2022.pdf",  //-vhq
         "HISACOR03T-2022.pdf",  //-vhq
         "HISACOR04T-2022.pdf",  //-vhq
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\HISACOR08T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\HISACOR09T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\HISACOR10T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\HISACOR11T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\HISACOR12T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\HISACOR13T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\HISACOR14T-2022.pdf",
+        "HISACOR08T-2022.pdf",  //-vhq
+        "HISACOR09T-2022.pdf",  //-vhq
+        "HISACOR10T-2022.pdf",  //-vhq
+        "HISACOR11T-2022.pdf",  //-vhq
+        "HISACOR12T-2022.pdf",  //-vhq
+        "HISACOR13T-2022.pdf",  //-vhq
+        "HISACOR14T-2022.pdf",  //-vhq
 
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\HISADSE02T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\HISADSE04T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\HISADSE05T-2022.pdf",
+        "HISADSE02T-2022.pdf",  //-vhq
+        "HISADSE04T-2022.pdf",  //-vhq
+        "HISADSE05T-2022.pdf",  //-vhq
 
     ],
 
     "HISG": [
 
         "HISGCOR02T-2022.pdf",  //-vhq
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\HISGCOR04T-2022.pdf",
+        "HISGCOR04T-2022.pdf",  //-vhq
 
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\HISGDSE01T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\HISGDSE02T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\HISGDSE04T-2022.pdf",
+        "HISGDSE01T-2022.pdf",  //-vhq
+        "HISGDSE02T-2022.pdf",  //-vhq
+        "HISGDSE04T-2022.pdf",  //-vhq
 
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\HISGGEC02T-2022.pdf",
+        "HISGGEC02T-2022.pdf",  //-vhq
 
     ],
 
     "MTMA": [
 
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\MTMACOR13T-2022.pdf",
+        "MTMACOR13T-2022.pdf",  //-vhq
 
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\MTMADSE04T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\MTMADSE05T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\MTMADSE06T-2022.pdf",
+        "MTMADSE04T-2022.pdf",  //-vhq
+        "MTMADSE05T-2022.pdf",  //-vhq
+        "MTMADSE06T-2022.pdf",  //-vhq
 
     ],
 
     "MTMG": [
 
         "MTMGCOR02T-2022.pdf",  //-vhq
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\MTMGCOR04T-2022.pdf",
+        "MTMGCOR04T-2022.pdf",  //-vhq
 
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\MTMGDSE01T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\MTMGDSE02T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\MTMGDSE03T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\MTMGDSE04T-2022.pdf",
+        "MTMGDSE01T-2022.pdf",  //-vhq
+        "MTMGDSE02T-2022.pdf",  //-vhq
+        "MTMGDSE03T-2022.pdf",  //-vhq
+        "MTMGDSE04T-2022.pdf",  //-vhq
 
     ],
 
@@ -495,30 +495,30 @@ const exam_papers = {
 
         "PEDGCOR01T-2022.pdf",  //-vhq
         "PEDGCOR02T-2022.pdf",  //-vhq
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\PEDGCOR04T-2022.pdf",
+        "PEDGCOR04T-2022.pdf",  //-vhq
 
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\PEDGDSE01T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\PEDGDSE03T-2022.pdf",
+        "PEDGDSE01T-2022.pdf",  //-vhq
+        "PEDGDSE03T-2022.pdf",  //-vhq
 
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\PEDGGEC02T-2022.pdf",
+        "PEDGGEC02T-2022.pdf",  //-vhq
 
     ],
 
     "PHIA": [
 
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\PHIADSE06T-2022.pdf",
+        "PHIADSE06T-2022.pdf",  //-vhq
 
     ],
 
     "PHIG": [
 
         "PHIGCOR02T-2022.pdf",  //-vhq
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\PHIGCOR04T-2022.pdf",
+        "PHIGCOR04T-2022.pdf",  //-vhq
 
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\PHIGDSE03T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\PHIGDSE04T-2022.pdf",
+        "PHIGDSE03T-2022.pdf",  //-vhq
+        "PHIGDSE04T-2022.pdf",  //-vhq
 
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\PHIGGEC02T-2022.pdf",
+        "PHIGGEC02T-2022.pdf",  //-vhq
 
     ],
 
@@ -529,8 +529,8 @@ const exam_papers = {
 
         "PHSADSE02T-2023.pdf",  //-lq
         "PHSADSE03T-2023.pdf",  //-lq
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\PHSADSE05T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\PHSADSE06T-2022.pdf",
+        "PHSADSE05T-2022.pdf",  //-vhq
+        "PHSADSE06T-2022.pdf",  //-vhq
 
     ],
 
@@ -538,10 +538,10 @@ const exam_papers = {
 
         "PHSGCOR01T-2022.pdf",  //-vhq
         "PHSGCOR02T-2022.pdf",  //-vhq
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\PHSGCOR04T-2022.pdf",
+        "PHSGCOR04T-2022.pdf",  //-vhq
 
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\PHSGDSE03T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\PHSGDSE04T-2022.pdf",
+        "PHSGDSE03T-2022.pdf",  //-vhq
+        "PHSGDSE04T-2022.pdf",  //-vhq
 
     ],
 
@@ -554,18 +554,18 @@ const exam_papers = {
         "PLSACOR02T-2022.pdf",  //-vhq
         "PLSACOR03T-2022.pdf",  //-vhq
         "PLSACOR04T-2022.pdf",  //-vhq
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\PLSACOR08T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\PLSACOR09T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\PLSACOR10T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\PLSACOR11T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\PLSACOR12T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\PLSACOR13T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\PLSACOR14T-2022.pdf",
+        "PLSACOR08T-2022.pdf",  //-vhq
+        "PLSACOR09T-2022.pdf",  //-vhq
+        "PLSACOR10T-2022.pdf",  //-vhq
+        "PLSACOR11T-2022.pdf",  //-vhq
+        "PLSACOR12T-2022.pdf",  //-vhq
+        "PLSACOR13T-2022.pdf",  //-vhq
+        "PLSACOR14T-2022.pdf",  //-vhq
 
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\PLSADSE02T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\PLSADSE04T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\PLSADSE05T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\PLSADSE06T-2022.pdf",
+        "PLSADSE02T-2022.pdf",  //-vhq
+        "PLSADSE04T-2022.pdf",  //-vhq
+        "PLSADSE05T-2022.pdf",  //-vhq
+        "PLSADSE06T-2022.pdf",  //-vhq
 
     ],
 
@@ -575,32 +575,32 @@ const exam_papers = {
 
         "PLSGCOR01T-2022.pdf",  //-vhq
         "PLSGCOR02T-2022.pdf",  //-vhq
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\PLSGCOR04T-2022.pdf",
+        "PLSGCOR04T-2022.pdf",  //-vhq
 
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\PLSGDSE03T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\PLSGDSE04T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\PLSGGEC02T-2022.pdf",
+        "PLSGDSE03T-2022.pdf",  //-vhq
+        "PLSGDSE04T-2022.pdf",  //-vhq
+        "PLSGGEC02T-2022.pdf",  //-vhq
 
     ],
 
     "SANA": [
 
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\SANADSE05T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\SANADSE06T-2022.pdf",
+        "SANADSE05T-2022.pdf",  //-vhq
+        "SANADSE06T-2022.pdf",  //-vhq
 
     ],
 
     "SANG": [
 
         "SANGCOR02T-2022.pdf",  //-vhq
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\SANGCOR04T-2022.pdf",
+        "SANGCOR04T-2022.pdf",  //-vhq
 
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\SANGDSE03T-2022.pdf",
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\SANGDSE04T-2022.pdf",
+        "SANGDSE03T-2022.pdf",  //-vhq
+        "SANGDSE04T-2022.pdf",  //-vhq
 
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\SANGGEC02T-2022.pdf",
+        "SANGGEC02T-2022.pdf",  //-vhq
 
-        "F:\Projects\WebProjects\exam-papers-archive\download\wbsu-ug\SANLCOR02T-2022.pdf",
+        "SANLCOR02T-2022.pdf",  //-vhq
         
         "SANSAEC01M-2022.pdf",  //-vhq
 
