@@ -14,7 +14,27 @@ const exam_years = [
 
 const exam_papers = {
 
-    "CMSA" : [
+    "AMPW": [
+
+        "AMPW-8-2022.pdf",  //-vhq
+
+    ],
+
+    "AUDA": [
+
+        "AUDA-6-2022.pdf",  //-vhq
+
+    ],
+
+    "BNGA": [
+
+        "BNGA-5-2022.pdf",  //-vhq
+        "BNGA-6-2022.pdf",  //-vhq
+        "BNGA-8-2022.pdf",  //-vhq
+
+    ],
+
+    "CMSA": [
 
         "CMSA-1-2017.pdf",  //-vhq
         "CMSA-1-2018.pdf",  //-vhq
@@ -40,7 +60,7 @@ const exam_papers = {
         "CMSA-6-2018.pdf",  //-vhq
         "CMSA-6-2019.pdf",  //-vhq
         "CMSA-6-2020.pdf",  //-vhq
-    
+
         "CMSACOR01T-2019.pdf",  //-lq
         "CMSACOR01T-2021.pdf",  //-vhq
         "CMSACOR01T-2022.pdf",  //-vhq
@@ -80,7 +100,7 @@ const exam_papers = {
         "CMSACOR13T-2022.pdf",  //-vhq
         "CMSACOR14T-2021.pdf",  //-vhq
         "CMSACOR14T-2022.pdf",  //-vhq
-    
+
         "CMSADSE01T-2021.pdf",  //-vhq
         "CMSADSE01T-2022.pdf",  //-vhq
         "CMSADSE02T-2021.pdf",  //-vhq
@@ -91,7 +111,7 @@ const exam_papers = {
         "CMSADSE04T-2022.pdf",  //-vhq
         "CMSADSE05T-2021.pdf",  //-vhq
         "CMSADSE05T-2022.pdf",  //-vhq
-    
+
     ],
 
     "CMSG": [
@@ -108,7 +128,7 @@ const exam_papers = {
         "CMSG-4A-2020.pdf",  //-vhq
         "CMSG-4A-2021.pdf",  //-vhq
         "CMSG-4A-2022.pdf",  //-vhq
-    
+
         "CMSGCOR01T-2021.pdf",  //-vhq
         "CMSGCOR01T-2022.pdf",  //-vhq
         "CMSGCOR02T-2020.pdf",  //-vhq
@@ -120,7 +140,7 @@ const exam_papers = {
         "CMSGCOR04T-2020.pdf",  //-vhq
         "CMSGCOR04T-2021.pdf",  //-vhq
         "CMSGCOR04T-2022.pdf",  //-vhq
-    
+
         "CMSGDSE01T-2021.pdf",  //-vhq
         "CMSGDSE01T-2022.pdf",  //-vhq
         "CMSGDSE02T-2021.pdf",  //-vhq
@@ -129,7 +149,100 @@ const exam_papers = {
         "CMSGDSE03T-2022.pdf",  //-vhq
         "CMSGDSE04T-2021.pdf",  //-vhq
         "CMSGDSE04T-2022.pdf",  //-vhq
-    
+
+    ],
+
+    "EDCA": [
+
+        "EDCA-6-2022.pdf",  //-vhq
+        "EDCA-8-2022.pdf",  //-vhq
+        "EDCA-5-2022.pdf",  //-vhq
+
+    ],
+
+    "ENGA": [
+
+        "ENGA-6-2022.pdf",  //-vhq
+        "ENGA-8-2022.pdf",  //-vhq
+        "ENGA-5-2022.pdf",  //-vhq
+
+        "ENGACOR01T-2021.pdf",  //-vhq
+        "ENGACOR02T-2021.pdf",  //-vhq
+        "ENGACOR03T-2021.pdf",  //-vhq
+        "ENGACOR04T-2020.pdf",  //-vhq
+        "ENGACOR04T-2021.pdf",  //-vhq
+        "ENGACOR05T-2021.pdf",  //-vhq
+        "ENGACOR05T-2022.pdf",  //-vhq
+        "ENGACOR06T-2021.pdf",  //-vhq
+        "ENGACOR06T-2022.pdf",  //-vhq
+        "ENGACOR07T-2021.pdf",  //-vhq
+        "ENGACOR07T-2022.pdf",  //-vhq
+        "ENGACOR08T-2021.pdf",  //-vhq
+        "ENGACOR08T-2022.pdf",  //-vhq
+        "ENGACOR09T-2021.pdf",  //-vhq
+        "ENGACOR10T-2022.pdf",  //-vhq
+        "ENGADSE01T-2021.pdf",  //-vhq
+        "ENGADSE01T-2022.pdf",  //-vhq
+        "ENGADSE02T-2021.pdf",  //-vhq
+        "ENGADSE02T-2022.pdf",  //-vhq
+
+    ],
+
+    "FACA": [
+
+        "FACA-5-2022.pdf",  //-vhq
+
+    ],
+
+    "FACG": [
+
+        "FACG-3-2022.pdf",  //-vhq
+
+    ],
+
+    "GEOA": [
+
+        "GEOA-5-2022.pdf",  //-vhq
+        "GEOA-6-2022.pdf",  //-vhq
+
+    ],
+
+    "GEOG": [
+
+        "GEOG-4-2022.pdf",  //-vhq
+
+    ],
+
+    "HISA": [
+
+        "HISA-5-2022.pdf",  //-vhq
+        "HISA-6-2022.pdf",  //-vhq
+        "HISA-8-2022.pdf",  //-vhq
+
+    ],
+
+    "PHSA": [
+
+        "PHSACOR11T-2023.pdf",  //-lq
+        "PHSACOR12T-2023.pdf",  //-lq
+
+        "PHSADSE02T-2023.pdf",  //-lq
+        "PHSADSE03T-2023.pdf",  //-lq
+
+    ],
+
+    "PLSA": [
+
+        "PLSA-5-2022.pdf",  //-vhq
+        "PLSA-6-2022.pdf",  //-vhq
+        "PLSA-8-2022.pdf",  //-vhq
+
+    ],
+
+    "PLSG": [
+
+        "PLSG-4-2022.pdf",  //-vhq
+
     ],
 
 };
