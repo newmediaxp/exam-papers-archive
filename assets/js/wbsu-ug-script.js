@@ -601,21 +601,15 @@ const exam_papers = {
         "SANGGEC02T-2022.pdf",  //-vhq
 
         "SANLCOR02T-2022.pdf",  //-vhq
-        
+
         "SANSAEC01M-2022.pdf",  //-vhq
 
     ],
 
 };
 
-const add_search_options = (search_option_year_display, search_option_subject_display) => {
+const add_search_options = (search_option_subject_display, search_option_year_display) => {
     let option;
-    exam_years.reverse().forEach(year => {
-        option = document.createElement("option");
-        option.text = year;
-        option.value = year;
-        search_option_year_display.appendChild(option);
-    });
     const exam_subjects = Object.keys(exam_papers);
     exam_subjects.forEach(subject => {
         option = document.createElement("option");
@@ -623,21 +617,27 @@ const add_search_options = (search_option_year_display, search_option_subject_di
         option.value = subject;
         search_option_subject_display.appendChild(option);
     });
+    exam_years.reverse().forEach(year => {
+        option = document.createElement("option");
+        option.text = year;
+        option.value = year;
+        search_option_year_display.appendChild(option);
+    });
 };
 
-const search_question_papers = (year, subject) => {
+const search_question_papers = (subject, year) => {
     let results = [];
     exam_papers[subject].forEach(paper => {
-        if (paper.slice(-8, -4) == year)
+        if (year == "ANY" || paper.slice(-8, -4) == year)
             results.push(paper);
     });
     return results;
 };
 
-const output_search_results = (search_results_display, year, subject) => {
-    const results = search_question_papers(year, subject);
+const output_search_results = (search_results_display, subject, year) => {
+    const results = search_question_papers(subject, year);
     search_results_display.innerHTML =
-        `<p id="search-results-info">( ${results.length} results found for ${year} ${subject} )</p>
+        `<p id="search-results-info">( ${results.length} results found for ${subject} ${year == "ANY" ? "" : year} )</p>
         <div class="search-results-set">`;
     results.forEach(paper => {
         search_results_display.innerHTML +=
@@ -651,17 +651,17 @@ const output_search_results = (search_results_display, year, subject) => {
 
 document.addEventListener("DOMContentLoaded", () => {
 
-    const search_option_year = document.getElementById("search-option-year");
     const search_option_subject = document.getElementById("search-option-subject");
+    const search_option_year = document.getElementById("search-option-year");
     const search_btn = document.getElementById("search-btn");
     const search_results = document.getElementById("search-results");
 
-    add_search_options(search_option_year, search_option_subject);
+    add_search_options(search_option_subject, search_option_year);
 
     search_btn.addEventListener("click", () => {
-        const year = search_option_year.value;
         const subject = search_option_subject.value;
-        output_search_results(search_results, year, subject);
+        const year = search_option_year.value;
+        output_search_results(search_results, subject, year);
     });
 
 });

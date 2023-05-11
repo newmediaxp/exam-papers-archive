@@ -14,12 +14,13 @@ block main-end
     div#search-options
 
         div
-            label(for="year") Year : 
-            select#search-option-year(name="year")
-
-        div
             label(for="subject") Subject : 
             select#search-option-subject(name="subject")
+
+        div
+            label(for="year") Year : 
+            select#search-option-year(name="year")
+                option(value="ANY") ANY 
 
         div 
             button#search-btn(type="button") Search
