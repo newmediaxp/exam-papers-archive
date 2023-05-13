@@ -51,8 +51,6 @@ header {
     max-width: 1080px;
     width: 95%;
     padding: 18px 0;
-    font-size: 12px;
-    font-weight: bold;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -67,6 +65,13 @@ header {
     width: 32px;
     height: 32px;
     cursor: pointer;
+}
+
+#header-content h1 {
+    font-size: 30px;
+    font-weight: bold;
+    transform: scaleX(0.84);
+    transform-origin: 0%;
 }
 
 footer {
