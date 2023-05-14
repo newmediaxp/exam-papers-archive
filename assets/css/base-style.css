@@ -129,7 +129,10 @@ main {
     margin-right: 5px;
 }
 
-#search-options select {
+#search-options select,
+#search-options input[type="text"],
+#search-options button,
+#support #support-btn {
     font-size: 19px;
     width: fit-content;
     max-width: 250px;
@@ -143,20 +146,50 @@ main {
     border-radius: 10px;
 }
 
+#search-options select {
+    width: fit-content;
+    max-width: 250px;
+    padding: 6px 12px;
+    margin: 4px 0;
+    background-color: var(--input-background-color);
+    color: var(--input-font-color);
+}
+
+#search-options input[type="text"] {
+    width: calc(100% - 28px);
+    max-width: 500px;
+    padding: 6px 12px;
+    margin: 4px 0;
+    cursor: text;
+    box-shadow: none;
+    background-color: var(--input-background-color);
+    color: var(--input-font-color);
+}
+
 #search-options #search-btn,
+#search-options #search-toggle-text,
+#search-options #search-toggle-select,
 #support #support-btn {
-    font-size: 19px;
     font-weight: bold;
     width: 140px;
     padding: 8px 0px;
-    transform: translate(5%, -2px);
     margin: 4px 0;
-    cursor: pointer;
-    box-shadow: none;
+    transform: translate(5%, -2px);
     background-color: var(--button-background-color);
     color: var(--button-font-color);
-    border: var(--input-border);
-    border-radius: 10px;
+}
+
+#search-options #search-toggle-text,
+#search-options #search-toggle-select {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+}
+
+#search-options #search-toggle-text img,
+#search-options #search-toggle-select img {
+    width: 77%;
+    vertical-align: middle;
 }
 
 #search-results-info,

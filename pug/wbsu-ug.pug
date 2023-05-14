@@ -25,6 +25,15 @@ block main-end
         div 
             button#search-btn(type="button") Search
 
+        div
+            input#search-option-text(type="text" name="name" placeholder="Search papers with name" maxlength="15")
+
+        div 
+            button#search-toggle-text(type="button" title="Search With Text")
+                img(src="./assets/img/search-toggle-text-icn.png" alt="Search With Text")
+            button#search-toggle-select(type="button" title="Search With List")
+                img(src="./assets/img/search-toggle-select-icn.png" alt="Search With List")
+
     div#search-results
 
 block body-end
