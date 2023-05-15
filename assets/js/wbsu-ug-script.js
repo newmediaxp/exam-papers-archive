@@ -1248,7 +1248,7 @@ const exam_papers = {
 
     "FMNG": [
 
-        "FMNG-5-2022pdf.pdf",  //-hq
+        "FMNG-5-2022.pdf",  //-hq
 
     ],
 
@@ -2147,7 +2147,7 @@ const exam_papers = {
     "PHSG": [
 
         "PHSG-1-supple-2021.pdf",  //-uq
-        "PHSG-4A-2022pdf.pdf",  //-hq
+        "PHSG-4A-2022.pdf",  //-hq
         "PHSG-4A-supple-2021.pdf",  //-uq
 
         "PHSGCOR01T-2021.pdf",  //-uq
@@ -2440,7 +2440,7 @@ const exam_papers = {
         "SANG-4-2016.pdf",  //-hq
         "SANG-4-2017.pdf",  //-mq
         "SANG-4-2018.pdf",  //-mq
-        "SANG-4-2022pdf.pdf",  //-hq
+        "SANG-4-2022.pdf",  //-hq
 
         "SANGCOR01T-2021.pdf",  //-uq
         "SANGCOR01T-2022.pdf",  //-uq
@@ -2710,7 +2710,7 @@ const exam_papers = {
     "ZOOG": [
 
         "ZOOG-1-supple-2021.pdf",  //-uq
-        "ZOOG-4A-2022pdf.pdf",  //-hq
+        "ZOOG-4A-2022.pdf",  //-hq
         "ZOOG-4A-supple-2021.pdf",  //-uq
 
         "ZOOGCOR01T-2022.pdf",  //-uq
@@ -2748,8 +2748,9 @@ const count_exam_papers = async () => {
 
 const search_exam_papers_generic = async (name) => {
     let results = [];
+    name = name.toLowerCase();
     exam_papers_keys.forEach(key => exam_papers[key].forEach(paper => {
-        if (paper.toLowerCase().includes(name.toLowerCase())) results.push(key + "/" + paper);
+        if (paper.slice(0, -4).toLowerCase().includes(name)) results.push(key + "/" + paper);
     }));
     return results;
 };
