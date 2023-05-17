@@ -2,24 +2,9 @@
 self.addEventListener("install", e => {
     self.skipWaiting();
     e.waitUntil(
-        caches.open("epa-cache").then(cache => cache.addAll([
-            "./",
-            "./manifest.json",
-            //html
-            "./home",
-            "./wbsu-ug",
-            "./about",
-            // css
-            "./assets/css/base-style.css",
-            // img
-            "./assets/img/search-toggle-select-icn.png",
-            "./assets/img/search-toggle-text-icn.png",
-            "./assets/img/site-big-icn.png",
-            // js
-            "./assets/js/base-script.js",
-            "./assets/js/home-script.js",
-            "./assets/js/wbsu-ug-script.js",
-        ])).catch(err => console.error(err))
+        caches.open("epa-cache")
+        .then(cache => cache.add("./"))
+        .catch(err => console.error(err))
     );
 });
 
