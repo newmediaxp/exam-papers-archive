@@ -3,7 +3,7 @@ self.addEventListener("install", e => {
     self.skipWaiting();
     e.waitUntil(
         caches.open("epa-cache").then(cache => cache.addAll([
-            "",
+            ".",
             "manifest.json",
             "favicon.png",
             //html
