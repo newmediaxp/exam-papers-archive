@@ -21,7 +21,7 @@ self.addEventListener("install", e => {
                 "/assets/js/home-script.js",
                 "/assets/js/wbsu-ug-script.js",
             ])
-        }).self.skipWaiting().catch()
+        }).then(() => self.skipWaiting()).catch()
     );
 });
 
