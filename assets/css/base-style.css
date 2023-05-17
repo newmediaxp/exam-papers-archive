@@ -49,7 +49,7 @@ header {
 
 #header-content {
     max-width: 1080px;
-    width: 95%;
+    width: calc(100% - 20px);
     padding: 18px 0;
     margin: auto;
     display: flex;
@@ -82,7 +82,7 @@ footer {
 
 #footer-content {
     max-width: 1080px;
-    width: 95%;
+    width: calc(100% - 20px);
     margin: auto;
     font-weight: normal;
 }
@@ -108,7 +108,7 @@ footer {
 
 main {
     max-width: 1080px;
-    width: 95%;
+    width: calc(100% - 20px);
     margin: 60px auto 80px auto;
 }
 

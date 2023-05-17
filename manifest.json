@@ -1,0 +1,26 @@
+{
+    "name": "Exam Papers Archive",
+    "short_name": "EPA",
+    "scope": "./",
+    "start_url": "./",
+    "id": "exam-papers-archive",
+    "lang": "en",
+    "background_color": "#eafaff",
+    "theme_color": "#2d445c",
+    "display": "standalone",
+    "description": "Exam Papers Archive lets you easily download previous years examination question papers.",
+    "icons": [
+        {
+            "src": "./favicon.png",
+            "sizes": "128x128",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "./assets/img/site-big-icn.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        }
+    ]
+}
