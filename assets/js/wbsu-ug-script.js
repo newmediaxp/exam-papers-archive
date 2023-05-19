@@ -2801,8 +2801,8 @@ document.addEventListener("DOMContentLoaded", () => {
         output_papers_count(search_results);
     };
 
-    search_option_text.parentElement.style.width = "100%";
-    search_option_text.parentElement.style.maxWidth = "500px";
+    search_option_text.parentElement.style.width = "400px";
+    search_option_text.parentElement.style.maxWidth = "calc(100% - 32px)";
     search_toggle_text.parentElement.style.marginLeft = "auto";
     toggle_search_type(false);
 

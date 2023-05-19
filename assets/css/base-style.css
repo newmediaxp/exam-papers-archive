@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap');
 
+/* #region - top */
+
 * {
     margin: 0;
     padding: 0;
@@ -42,6 +44,10 @@ body {
     font-size: 16px;
 }
 
+/* #endregion */
+
+/* #region - header */
+
 header {
     background-color: var(--header-background-color);
     color: var(--header-font-color);
@@ -73,6 +79,10 @@ header {
     transform: scaleX(0.84);
     transform-origin: 0%;
 }
+
+/* #endregion */
+
+/* #region - footer */
 
 footer {
     background-color: var(--header-background-color);
@@ -106,6 +116,10 @@ footer {
     margin-left: auto;
 }
 
+/* #endregion */
+
+/* #region - search options */
+
 main {
     max-width: 1080px;
     width: calc(100% - 20px);
@@ -134,7 +148,6 @@ main {
 #search-options button,
 #support #support-btn {
     font-size: 19px;
-    width: fit-content;
     max-width: 250px;
     padding: 6px 12px;
     margin: 4px 0;
@@ -156,8 +169,8 @@ main {
 }
 
 #search-options input[type="text"] {
-    width: calc(100% - 28px);
-    max-width: 500px;
+    width: 100%;
+    max-width: none;
     padding: 6px 12px;
     margin: 4px 0;
     cursor: text;
@@ -172,9 +185,8 @@ main {
 #support #support-btn {
     font-weight: bold;
     width: 140px;
-    padding: 8px 0px;
+    padding: 6px 0px;
     margin: 4px 0;
-    transform: translate(5%, -2px);
     background-color: var(--button-background-color);
     color: var(--button-font-color);
 }
@@ -190,7 +202,12 @@ main {
 #search-options #search-toggle-select img {
     width: 77%;
     vertical-align: middle;
+    overflow: hidden;
 }
+
+/* #endregion */
+
+/* #region - search results */
 
 #search-results-info,
 #exam-pages-info {
@@ -232,6 +249,10 @@ main {
     border-radius: 20px;
 }
 
+/* #endregion */
+
+/* #region - others */
+
 #index-heading h2 {
     font-size: 20px;
 }
@@ -266,3 +287,5 @@ main {
     font-weight: bold;
     color: var(--button-background-color);
 }
+
+/* #endregion */
