@@ -660,23 +660,33 @@ const exam_papers = {
         "CMSACOR10T-2022.pdf",  //-uq
         "CMSACOR11T-2021.pdf",  //-uq
         "CMSACOR11T-2022.pdf",  //-uq
+        "CMSACOR11T-2023.pdf",  //-hq
         "CMSACOR12T-2021.pdf",  //-uq
         "CMSACOR12T-2022.pdf",  //-uq
+        "CMSACOR12T-2023.pdf",  //-hq
         "CMSACOR13T-2021.pdf",  //-uq
         "CMSACOR13T-2022.pdf",  //-uq
+        "CMSACOR13T-2023.pdf",  //-hq
         "CMSACOR14T-2021.pdf",  //-uq
         "CMSACOR14T-2022.pdf",  //-uq
+        "CMSACOR14P-2023.pdf",  //-hq
+        "CMSACOR14T-2023.pdf",  //-hq
 
         "CMSADSE01T-2021.pdf",  //-uq
         "CMSADSE01T-2022.pdf",  //-uq
+        "CMSADSE01T-2023.pdf",  //-hq
         "CMSADSE02T-2021.pdf",  //-uq
         "CMSADSE02T-2022.pdf",  //-uq
+        "CMSADSE02T-2023.pdf",  //-hq
         "CMSADSE03T-2021.pdf",  //-uq
         "CMSADSE03T-2022.pdf",  //-uq
         "CMSADSE04T-2021.pdf",  //-uq
         "CMSADSE04T-2022.pdf",  //-uq
         "CMSADSE05T-2021.pdf",  //-uq
         "CMSADSE05T-2022.pdf",  //-uq
+        "CMSADSE05P-2023.pdf",  //-hq
+        "CMSADSE05P-2023.pdf",  //-hq
+        "CMSADSE05T-2023.pdf",  //-hq
 
     ],
 
