@@ -1,6 +1,6 @@
 /* Exam Papers */
 
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 /* #region - top */
 
@@ -32,7 +32,7 @@ a,
 input,
 select,
 button {
-    font-family: "PT Sans Caption", sans-serif;
+    font-family: "Nunito", sans-serif;
 }
 
 body {
