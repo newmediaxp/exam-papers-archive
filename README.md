@@ -1,12 +1,43 @@
 # Exam Papers Archive
-*version* : **2.4**  
-*update date* : 14 May 2023  
-*description*: A website to download previous years examination question papers  
-*developer* : **AnimaxNeil**  
-*release date* : 12 December 2022  
-*hosted link* : https://www.exampapersarchive.com  
+
+`website` `web-app` `front-end`
+
+&copy; New Media XP  
+|
+[website](https://www.newmediaxp.com)
+|
+[email](mailto:contact@newmediaxp.com)
+|
 
 ---
-#### Contact Info  
-*email* : animaxneil@gmail.com  
-*website* : https://www.animaxneil.com/contact  
+
+## Description
+
+The website provides a centralized repository for students to easily find previous year question papers. It addresses the common frustration of navigating multiple, disorganized websites by offering a streamlined search experience, ultimately saving students time in their exam preparation.
+
+---
+
+## Details
+
+* Released on *12 December 2022*
+
+* Tools
+    
+    * Node.js
+    * npm modules
+        * pug
+        * pug-cli
+
+* Live
+
+    * <https://newmediaxp.github.io/exam-papers-archive>
+
+---
+
+## Contact
+
+* Link: https://www.newmediaxp.com/contact
+* Email-1: <contact@newmediaxp.com>
+* Email-2: <animaxneil@gmail.com>
+
+---
