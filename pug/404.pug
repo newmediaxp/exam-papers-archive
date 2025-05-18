@@ -1,0 +1,18 @@
+//- 404
+
+extends ./base.pug
+
+block head-end
+    title Exam Papers Archive | 404
+    meta(name="description" content="Error 404 page not found")
+    link(rel="stylesheet" href="./assets/css/error.css")
+
+block header-content-end
+    h1 Exam Papers Archive
+
+block main-end
+
+    div#error404
+        h2 404
+        p Page not found
+        a(href="/exam-papers-archive"): span Go to Home page
