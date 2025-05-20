@@ -2830,7 +2830,7 @@ document.addEventListener("DOMContentLoaded", () => {
             search_results_html +=
                 `<div class="item">
                 <span>${paper.slice(0, -4)}</span>
-                <a href="./download/${exam_dir}/${subject}/${paper}" target="_blank">View Paper</a>
+                <a href="/download/${exam_dir}/${subject}/${paper}" target="_blank">View Paper</a>
                 </div>`;
         });
         search_results_html += `</div>`;
@@ -2854,7 +2854,7 @@ document.addEventListener("DOMContentLoaded", () => {
             search_results_html +=
                 `<div class="item">
                 <span>${paper.slice(5, -4)}</span>
-                <a href="./download/${exam_dir}/${paper}" target="_blank">View Paper</a>
+                <a href="/download/${exam_dir}/${paper}" target="_blank">View Paper</a>
                 </div>`;
         });
         search_results_html += `</div>`;

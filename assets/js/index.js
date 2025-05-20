@@ -14,7 +14,7 @@ const output_exam_pages = (exam_pages_display) => {
         exam_pages_html +=
             `<div class="item">
             <span>${key}</span>
-            <a href="./${exams[key]}">Visit Page</a>
+            <a href="/${exams[key]}">Visit Page</a>
             </div>`;
     });
     exam_pages_display.innerHTML = exam_pages_html;
