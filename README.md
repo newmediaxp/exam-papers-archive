@@ -30,13 +30,13 @@ The website provides a centralized repository for students to easily find previo
 
 * Live
 
-    * <https://newmediaxp.github.io/exam-papers-archive>
+    * <https://exam-papers-archive.pages.dev>
 
 ---
 
 ## Contact
 
-* Link: https://www.newmediaxp.com/contact
+* Link: <https://www.newmediaxp.com/contact>
 * Email-1: <contact@newmediaxp.com>
 * Email-2: <animaxneil@gmail.com>
 
